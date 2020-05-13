@@ -51,8 +51,6 @@ def load_pandas(base_dir = "C:/Users/user/Desktop/USF 2020-1/BSDS200/FINAL PROJE
 def load_sql(base_dir = "C:/Users/user/Desktop/USF 2020-1/BSDS200/FINAL PROJECT"):
     TEMPORARY_DIR = base_dir + "/TmpDir/"
     print("Temp directory: ", TEMPORARY_DIR)
-    CONNECTION_STRING = "dbname = 'bsdsclass' user = 'ymoon2' host = 'bsds200.c3ogcwmqzllz.us-east-1.rds.amazonaws.com' password = 'Divider6'"
-    # CONNECTION_STRING = "dbname = 'bsdsclass' user = 'ammuth' host = 'bsds200.c3ogcwmqzllz.us-east-1.rds.amazonaws.com' password = 'Driver6'"
     
     file_names = ["Police_Department_Incident_Reports__Historical_2003_to_May_2018",
                   "Police_Department_Incident_Reports__2018_to_Present",
